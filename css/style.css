@@ -1,0 +1,192 @@
+body {
+	direction: rtl;
+	text-align: right;
+	overflow: auto;
+	height: 4000px;
+	font-family: 'Cairo', sans-serif;
+	background-color: #F3F3F3;
+}
+@font-face {
+  font-family: DubaiW23-Regular;
+  src: url(fonts/DubaiW23-Regular.woff);
+}
+
+.clear{
+	clear: both;
+}
+/*---------------------------Navigation Bar  -----------------------*/
+
+
+.navbar{
+	font-family: DubaiW23-Regular;
+	background-image: url("../images/bg-wide@2x.jpg");
+	background-repeat: repeat-x;
+	background-position: center;
+	height: 70px;
+	margin: 0px 0px;
+}
+.navbar a{
+	color: #fff;
+	font-family: 'Cairo', sans-serif;
+}
+#majara-logo{
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 30px;
+	font-family: 'Cairo', sans-serif;
+	color: #fff;
+
+}
+.nav-item{
+	display: inline-block;
+}
+.nav-link{
+	font-family: 'Cairo', sans-serif;
+	color: #fff;
+	font-size: 15px;
+}
+.nav-list{
+	margin: auto;
+}
+.nav-search{
+	display: inline-block;
+}
+.nav-login{
+	display: inline-block;
+	margin-right: 5%;
+}
+
+#nav-add-source-btn{
+	background-color: #fff;
+	color: #00F;
+	line-height: 20px;
+}
+/*---------------------------Majarra Header -----------------------*/
+.majarra-header{
+	background-image: url("../images/bg-wide@2x.jpg");
+	height: 500px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: contain;
+}
+
+.majarra-header{
+	padding-top: 200px;
+	color: #fff;
+}
+
+#search-control{
+	width: 403px;
+}
+ .form-inline{
+	justify-content: center;
+	margin:20px 0px;
+} 
+.form-control{
+	background-color: #fff;
+	color: white;
+	float: right;
+	height: 38px;
+	width: 410px;
+	font-size: 14px;
+	border:1px;
+	border-color: #F3F3F3;
+	border-left: none;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	
+
+}
+#searchcontrol{
+	/*background-image: url('https://www.shoroukbookstores.com/App_Themes/Images/search-btn.png'); */
+	background-color:#fff;
+	float: left;
+	width: 50px;
+	height: 38px; 
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	border-color: #F3F3F3;
+	border-radius: 5px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border:none;
+	
+
+}
+.header-search .material-icons{
+	color: #000;
+	float: left;
+	position: relative;
+	padding: 8px 10px;
+}
+.most-searched {
+		justify-content: center;
+
+}
+.most-searched p{
+	display: inline-block;
+}
+.most-searched h5{
+display: inline-block;
+font-size: 18px;
+font-weight: 400;
+}
+/*---------------------------Majarra Header -----------------------*/
+/*---------------------------Courses Section-----------------------*/
+#courses-header{
+	font-weight: 700;
+	margin: 30px 0px;
+
+}
+.row{
+	justify-content: center;
+}
+.card{
+	margin-left: 2%; 
+/*	margin-right: 5%; */
+}
+.card img{
+max-width: 100px;
+max-height: 100px;
+margin:5px -9px;
+}
+.card-title{
+	font-size: 1.2rem;
+}
+.card-title a{
+color: #07037B;
+}
+.explore-now-btn{
+	background-image: url("../images/bg-wide.jpg");
+	height: 40px;
+	width: 200px;
+	line-height: 40px;
+	color: #fff;
+	border-radius: 5px;
+	margin:30px 0px;
+
+}
+.explore-now-btn a{
+		font-family: 'Cairo', sans-serif;
+		font-size: 18px;
+		font-weight: 400;
+		color: #fff;
+}
+
+/*---------------------------Courses Section-----------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
