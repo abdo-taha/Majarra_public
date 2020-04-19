@@ -16,269 +16,262 @@
 	<!-- Majarra CSS -->
 	<link rel="stylesheet" href="css/style.css">
 
-	<!-- Majarra Fonts -->
-	<link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo:wght@600&display=swap" rel="stylesheet"> 
-	<!-- Fontawesome icons -->
-    <script src="https://kit.fontawesome.com/a5d0615e58.js" crossorigin="anonymous"></script>
-
 	<!-- Tab title and icon -->
 	<title>مجرة | الرئيسية</title>
 	<link rel="icon" href="images/bg-sm.jpg" type="imag/icon type">
-</head>
- 
-<body>
-<!----------------------------------Navigation Bar---------------------------------------------->
 
-   <nav class="navbar navbar-toggleable-sm navbar-expand-lg bg-faded">
-		
+</head>
+
+<body>
+	<!----------------------------------Navigation Bar---------------------------------------------->
+
+	<nav class="navbar navbar-toggleable-sm navbar-expand-lg bg-faded">
+
 		<div class="container">
-		
- 			  <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    			<span class="navbar-toggler-icon"></span>
-  				</button>
+
+			<button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 			<!--Nav bar Logo -->
 			<div class="col-md-2 col-sm-6 col-xs-12">
 				<div class="logo">
-				<a class="nav-link"  id="majara-logo" href="index.html">مجرة</a>
-			</div>
+					<a class="nav-link" id="majara-logo" href="index.html">مجرة</a>
+				</div>
 			</div>
 			<!--Nav bar Navigation taps  -->
-			<div class="col-md-5 col-sm-6 hidden-xs-down visible-print-inline" >
+			<div class="col-md-5 col-sm-6 hidden-xs-down visible-print-inline">
 				<div class="nav-taps collapse navbar-collapse" id="#navbarSupportedContent">
-				<ul class="list-unstyled nav-list">
-					<li class="nav-item active">
-             			<a class="nav-link" href="#">تصفح التقنيات</a>
-          			</li>
-          			<li class="nav-item ">
-             			<a class="nav-link" href="#">مسارات التعلم </a>
-          			</li>
-          			<li class="nav-item ">
-             			<a class="nav-link" href="#">المجتمع</a>
-          			</li>
-          		</ul>
-			</div>
+					<ul class="list-unstyled nav-list">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">تصفح التقنيات</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link" href="#">مسارات التعلم </a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link" href="#">المجتمع</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 			<!--Nav bar register buttons  -->
 			<div class="col-md-3 hidden-sm-down">
 				<div class="nav-buttons">
-				<div class="nav-search">
-					<a href="#">بحث</a>
-				</div>
-				<div class="nav-login">
-					<a href="#">تسجيل/دخول</a>
-				</div>
+					<div class="nav-search">
+						<a href="#">بحث</a>
+					</div>
+					<div class="nav-login">
+						<a href="#">تسجيل/دخول</a>
+					</div>
 				</div>
 			</div>
 			<!--Nav bar add source button-->
-			<div  class="col-md-2">
-				<a class="nav-link btn btn-primary"  id="nav-add-source-btn" href="#">+اقترح مصدرًا</a>
+			<div class="col-md-2">
+				<a class="nav-link btn btn-white" id="nav-add-source-btn" href="#">+اقترح مصدرًا</a>
 			</div>
 		</div>
-		
-	</nav>
-<!----------------------------------Header-------------------------------------------->
-	<header class="majarra-header">
-		<div class="container">
-			<center><h1>
-				مجرة ... مصادر و مسارات متكاملة <br>لتتعلم ما تحب
-			</h1></center>
-			<div class="header-search col-xs-12">
-				  <div class="form-inline ">
-        			<div id="search-control">
-            		<input class="form-control" type="search" name="navsearch" placeholder="ماذا تحب أن تتعلم ؟" style="width: 350px;">
-            		<input id="searchcontrol" type="button" name="">
-            		<span class="material-icons">search</span>
-            		</div>
-                 </div>
-				<div class="clear"></div>  
 
+	</nav>
+
+	<header class="header-lg container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-12 col-md-6 text-center">
+				<h1 class="header-title">
+					مجرة ... مصادر و مسارات متكاملة <br>لتتعلم ما تحب
+				</h1>
+				<div class="header-search">
+					<input class="form-control" type="search" name="navsearch" placeholder="ماذا تحب أن تتعلم ؟">
+					<button id="searchcontrol" class="btn" type="button" name="">
+						<span class="material-icons">search</span>
+					</button>
+				</div>
+				<div class="most-searched">
+					<h5>الأكثر بحثًا</h5>
+					<p>تطوير الويب, فوتوشوب ,الذكاء الاصطناعي.</p>
+				</div>
 			</div>
-			<center><div class="most-searched">
-				<h5>الأكثر بحثًا</h5>
-				<p>تطوير الويب, فوتوشوب ,الذكاء الاصطناعي.</p>
-			</div></center>
 		</div>
 	</header>
-<!----------------------------------Courses Section -------------------------------------------->
-	<section id="toolstechs" class="container">
-			<div class="courses">
-					<div class="row">
-						<div class="col text-center">
-							<h4 class="section-title">الأدوات و التقنيات</h4>
+
+	<!-- Courses Section -->
+	<section id="tools-section" class="container">
+		<div class="row">
+			<div class="col text-center">
+				<h4 class="section-title">الأدوات و التقنيات</h4>
+			</div>
+		</div>
+
+		<div class="row cards-catalog justify-content-center">
+			<div class="col-12 mb-3 col-md-4 col-xs-12">
+				<div class="card">
+					<div class="row no-gutters">
+						<div class="col-md-4">
+							<img src="https://bit.ly/3aZfiOR" class="card-img" alt="...">
+						</div>
+						<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title"><a href="#">جافا سكريبت</a></h5>
+								<p class="card-text"><small class="text-muted">24 مصدر</small></p>
+							</div>
 						</div>
 					</div>
-
-			<div class="row cards-catalog justify-content-center">
-				<!------------------------------- First course in row------------------------ -->
-
-			  <div class="col-12 mb-3 col-md-4 col-xs-12" >
-			  	<div class="card">
-  				<div class="row no-gutters">
-    				<div class="col-md-4">
-     				 <img src="https://bit.ly/3aZfiOR" class="card-img" alt="...">
-    				</div>
-    				<div class="col-md-8">
-    				  <div class="card-body">
-      				  <h5 class="card-title"><a href="#">جافا سكريبت</a></h5>
-       				 <p class="card-text"><small class="text-muted">24 مصدر</small></p>
-      				</div>
-    				</div>
-    			</div>
-  				</div>
 				</div>
-
-				<!------------------------------- second course in row------------------------ -->
-
-				<div class="col-12 mb-3 col-md-4 col-xs-12" >
-					<div class="card">
-  				<div class="row no-gutters">
-    				<div class="col-md-4">
-    					
-     				 <img src="https://bit.ly/2V3b2bx" class="card-img" alt="...">
-    				</div>
-    				<div class="col-md-8">
-    				  <div class="card-body">
-      				  <h5 class="card-title"><a href="#">أدوبي فوتوشوب</a></h5>
-       				 <p class="card-text"><small class="text-muted">24 مصدر</small></p>
-      				</div>
-    				</div>
-    				</div>
-  				</div>
-				</div>
-				<!------------------------------- third course in row------------------------ -->
-				<div class="col-12 mb-3 col-md-4 col-xs-12" >
-				  <div class="card">
-  					<div class="row no-gutters">
-    				<div class="col-md-4">    					
-     				 <img src="https://bit.ly/2K1FfBm" class="card-img" alt="...">
-    				 </div>
-    				  <div class="col-md-8">
-    				  <div class="card-body">
-      				  <h5 class="card-title"><a href="#">HTML5</a></h5>
-       				 <p class="card-text"><small class="text-muted">24 مصدر</small></p>
-      				</div>
-    				</div>
-    				</div>
-  				  </div>
-				</div>
-				<!------------------------------- First course in row------------------------ -->
-			    <div class="col-12 mb-3 col-md-4 col-xs-12" >
-			  	 <div class="card">
-  				  <div class="row no-gutters">
-    				<div class="col-md-4">
-     				 <img src="https://bit.ly/3aZfiOR" class="card-img" alt="...">
-    				</div>
-    				<div class="col-md-8">
-    				  <div class="card-body">
-      				  <h5 class="card-title"><a href="#">جافا سكريبت</a></h5>
-       				 <p class="card-text"><small class="text-muted">24 مصدر</small></p>
-      				</div>
-    				</div>
-    			  </div>
-  				 </div>
-				</div>
-
-				<!------------------------------- second course in row------------------------ -->
-
-				<div class="col-12 mb-3 col-md-4 col-xs-12" >
-					<div class="card">
-  				<div class="row no-gutters">
-    				<div class="col-md-4">
-    					
-     				 <img src="https://bit.ly/2V3b2bx" class="card-img" alt="...">
-    				</div>
-    				<div class="col-md-8">
-    				  <div class="card-body">
-      				  <h5 class="card-title"><a href="#">أدوبي فوتوشوب</a></h5>
-       				 <p class="card-text"><small class="text-muted">24 مصدر</small></p>
-      				</div>
-    				</div>
-    				</div>
-  				</div>
-				</div>
-				<!------------------------------- third course in row------------------------ -->
-				<div class="col-12 mb-3 col-md-4 col-xs-12" >
-					<div class="card">
-  				<div class="row no-gutters">
-    				<div class="col-md-4">
-    					
-     				 <img src="https://bit.ly/2K1FfBm" class="card-img" alt="...">
-    				</div>
-    				<div class="col-md-8">
-    				  <div class="card-body">
-      				  <h5 class="card-title"><a href="#">HTML5</a></h5>
-       				 <p class="card-text"><small class="text-muted">24 مصدر</small></p>
-      				</div>
-    				</div>
-    				</div>
-  				</div>
-				</div>
-				
-				<!------------------------------- First course in row------------------------ -->
-
-			    <div class="col-12 mb-3 col-md-4 col-xs-12" >
-			  	<div class="card">
-  				<div class="row no-gutters">
-    				<div class="col-md-4">
-     				 <img src="https://bit.ly/3aZfiOR" class="card-img" alt="...">
-    				</div>
-    				<div class="col-md-8">
-    				  <div class="card-body">
-      				  <h5 class="card-title"><a href="#">جافا سكريبت</a></h5>
-       				 <p class="card-text"><small class="text-muted">24 مصدر</small></p>
-      				</div>
-    				</div>
-    			</div>
-  				</div>
-				</div>
-
-				<!------------------------------- second course in row------------------------ -->
-
-				<div class="col-12 mb-3 col-md-4 col-xs-12" >
-					<div class="card">
-  				<div class="row no-gutters">
-    				<div class="col-md-4">
-    					
-     				 <img src="https://bit.ly/2V3b2bx" class="card-img" alt="...">
-    				</div>
-    				<div class="col-md-8">
-    				  <div class="card-body">
-      				  <h5 class="card-title"><a href="#">أدوبي فوتوشوب</a></h5>
-       				 <p class="card-text"><small class="text-muted">24 مصدر</small></p>
-      				</div>
-    				</div>
-    				</div>
-  				</div>
-				</div>
-				<!------------------------------- third course in row------------------------ -->
-				<div class="col-12 mb-3 col-md-4 col-xs-12" >
-					<div class="card">
-  				<div class="row no-gutters">
-    				<div class="col-md-4">
-    					
-     				 <img src="https://bit.ly/2K1FfBm" class="card-img" alt="...">
-    				</div>
-    				<div class="col-md-8">
-    				  <div class="card-body">
-      				  <h5 class="card-title"><a href="#">HTML5</a></h5>
-       				 <p class="card-text"><small class="text-muted">24 مصدر</small></p>
-      				</div>
-    				</div>
-    				</div>
-  				</div>
-				</div>
-
-
-				</div>
-
 			</div>
 
-			<center><div class="btn-primary" id="explore-now-btn"> <a href="">تصفح الآن </a></div></center>
-	</section>
-<!----------------------------------Path Section ----------------------------------------------->
-	<section></section>
+			<!------------------------------- second course in row------------------------ -->
 
-	<footer></footer>
+			<div class="col-12 mb-3 col-md-4 col-xs-12">
+				<div class="card">
+					<div class="row no-gutters">
+						<div class="col-md-4">
+
+							<img src="https://bit.ly/2V3b2bx" class="card-img" alt="...">
+						</div>
+						<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title"><a href="#">أدوبي فوتوشوب</a></h5>
+								<p class="card-text"><small class="text-muted">24 مصدر</small></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!------------------------------- third course in row------------------------ -->
+			<div class="col-12 mb-3 col-md-4 col-xs-12">
+				<div class="card">
+					<div class="row no-gutters">
+						<div class="col-md-4">
+							<img src="https://bit.ly/2K1FfBm" class="card-img" alt="...">
+						</div>
+						<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title"><a href="#">HTML5</a></h5>
+								<p class="card-text"><small class="text-muted">24 مصدر</small></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!------------------------------- First course in row------------------------ -->
+			<div class="col-12 mb-3 col-md-4 col-xs-12">
+				<div class="card">
+					<div class="row no-gutters">
+						<div class="col-md-4">
+							<img src="https://bit.ly/3aZfiOR" class="card-img" alt="...">
+						</div>
+						<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title"><a href="#">جافا سكريبت</a></h5>
+								<p class="card-text"><small class="text-muted">24 مصدر</small></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!------------------------------- second course in row------------------------ -->
+
+			<div class="col-12 mb-3 col-md-4 col-xs-12">
+				<div class="card">
+					<div class="row no-gutters">
+						<div class="col-md-4">
+
+							<img src="https://bit.ly/2V3b2bx" class="card-img" alt="...">
+						</div>
+						<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title"><a href="#">أدوبي فوتوشوب</a></h5>
+								<p class="card-text"><small class="text-muted">24 مصدر</small></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!------------------------------- third course in row------------------------ -->
+			<div class="col-12 mb-3 col-md-4 col-xs-12">
+				<div class="card">
+					<div class="row no-gutters">
+						<div class="col-md-4">
+
+							<img src="https://bit.ly/2K1FfBm" class="card-img" alt="...">
+						</div>
+						<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title"><a href="#">HTML5</a></h5>
+								<p class="card-text"><small class="text-muted">24 مصدر</small></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!------------------------------- First course in row------------------------ -->
+
+			<div class="col-12 mb-3 col-md-4 col-xs-12">
+				<div class="card">
+					<div class="row no-gutters">
+						<div class="col-md-4">
+							<img src="https://bit.ly/3aZfiOR" class="card-img" alt="...">
+						</div>
+						<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title"><a href="#">جافا سكريبت</a></h5>
+								<p class="card-text"><small class="text-muted">24 مصدر</small></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!------------------------------- second course in row------------------------ -->
+
+			<div class="col-12 mb-3 col-md-4 col-xs-12">
+				<div class="card">
+					<div class="row no-gutters">
+						<div class="col-md-4">
+
+							<img src="https://bit.ly/2V3b2bx" class="card-img" alt="...">
+						</div>
+						<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title"><a href="#">أدوبي فوتوشوب</a></h5>
+								<p class="card-text"><small class="text-muted">24 مصدر</small></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!------------------------------- third course in row------------------------ -->
+			<div class="col-12 mb-3 col-md-4 col-xs-12">
+				<div class="card">
+					<div class="row no-gutters">
+						<div class="col-md-4">
+
+							<img src="https://bit.ly/2K1FfBm" class="card-img" alt="...">
+						</div>
+						<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title"><a href="#">HTML5</a></h5>
+								<p class="card-text"><small class="text-muted">24 مصدر</small></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+		</div>
+
+		<div class="row justify-content-center">
+			<div class="col-12 col-md-3">
+				<a href="#" class="btn btn-primary btn-block ">تصفح الكل</a>
+			</div>
+		</div>
+
+	</section>
 
 	<section id="paths-section" class="container">
 		<div class="row">
