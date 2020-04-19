@@ -122,7 +122,7 @@
 					<a href="#" class="footer-logo">مجرة</a>
 					<ul class="footer-list mb-3 mb-md-0">
 						<li>
-							<a href="#">عن مجرة</a>
+							<a href="#login-modal" data-toggle="modal">عن مجرة</a>
 						</li>
 						<li>
 							<a href="#">سياسة الخصوصية</a>
@@ -151,7 +151,43 @@
 	</footer>
 
 	<!-- Login Modal -->
-	<div></div>
+	<div class="modal modal-custom fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					إغلاق
+				</button>
+				<div class="modal-header">
+					<h5 class="modal-title" id="loginModalLabel">تسجيل الدخول</h5>
+				</div>
+				<div class="modal-body">
+					<div class="form-group">
+						<a href="#" class="btn btn-outline-white btn-block">
+							المتابعة باستخدام تويتر
+						</a>
+					</div>
+					<form>
+						<div class="form-group">
+							<input type="text" class="form-control modal-control" placeholder="البريد الإلكتزوني">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control modal-control" placeholder="كلمة المرور">
+						</div>
+						<div class="form-group text-center  mb-4">
+							<a href="#" class="text-white"><u>نسيت كلمة المرور؟</u></a>
+						</div>
+						<div class="form-row justify-content-center">
+							<div class="col-12 col-md-6">
+								<button class="btn btn-white btn-block">دخول</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- Register Modal -->
 	<div></div>
