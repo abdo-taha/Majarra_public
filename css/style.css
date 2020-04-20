@@ -8,61 +8,36 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
 @font-face {
-  font-family: DubaiW23-Regular;
-  src: url(fonts/DubaiW23-Regular.woff);
-}
+  font-family:"DubaiFont";
+  src:url('/fonts/DubaiW23-Regular.woff');}
 
-.clear{
-	clear: both;
-}
+.clear{clear: both;}
 /*---------------------------Navigation Bar  -----------------------*/
 .navbar{
-	font-family: DubaiW23-Regular;
+	font-family:'DubaiFont';
 	height: 70px;
-	margin: 0px 50px;
 	position:absolute;
-	top:40px;
-	width: 100%;
-}
+	width: 100%;}
+
 .navbar-toggler-icon{
-	color: #fff;
-}
+	  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");}
+
 .navbar a{
 	color: #fff;
-	font-family: 'Cairo', sans-serif;
-}
+	font-family:DubaiFont;}
+
 #majara-logo{
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 30px;
-	font-family: 'Cairo', sans-serif;
+	font-family: DubaiFont;
 	color: #fff;
-	padding-bottom: 20px;
+	padding-bottom: 20px;}
 
-}
-.nav-item{
-	display: inline-block;
-}
 .nav-link{
-	font-family: 'Cairo', sans-serif;
+	font-family:'DubaiFont';
 	color: #fff;
-	font-size: 15px;
-}
-.nav-list{
-	margin: auto;
-
-}
-.nav-search{
-	display: inline-block;
-		padding-bottom: 20px;
-
-}
-.nav-login{
-	display: inline-block;
-	margin-right: 5%;
-		padding-bottom: 20px;
-
-}
+	font-size: 17px;}
 
 #nav-add-source-btn{
 	background-color: #fff;
@@ -72,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 #nav-add-source-btn:hover{
 	transform: translateY(-5px);
 }
+
 @media screen and (max-width:980px) {
 	#nav-add-source-btn{display: none}
 	#majara-logo{text-align: center;}
@@ -85,6 +61,7 @@ header {
 	color: #fff;
 	background: #1A237E url("../images/bg-wide@2x.jpg") no-repeat center;
 	background-size: cover;
+	font-family:DubaiW23-Regular;
 }
 .header-lg {
 	padding: 220px 0 100px 0;
@@ -120,6 +97,7 @@ header {
 
 .most-searched {
 		justify-content: center;
+		padding-top: 10px;
 }
 
 .most-searched p{
