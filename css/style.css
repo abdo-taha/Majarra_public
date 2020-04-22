@@ -1,41 +1,55 @@
+/*--------------------------------------------------------------
+1.0 Fonts
+--------------------------------------------------------------*/
+@font-face {
+	font-family: 'Dubai';
+    src: url('/fonts/DubaiW23-Regular.woff2') format('woff2'),
+        url('/fonts/DubaiW23-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Dubai';
+    src: url('/fonts/DubaiW23-Bold.woff2') format('woff2'),
+        url('/fonts/DubaiW23-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
 body {
 	direction: rtl;
+	font-family: 'Dubai', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	text-align: right;
-	overflow: auto;
 	background-color: #ECEFF1;
+	overflow: auto;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
-@font-face {
-  font-family:"DubaiFont";
-  src:url('/fonts/DubaiW23-Regular.woff');}
 
 .clear{clear: both;}
 /*---------------------------Navigation Bar  -----------------------*/
 .navbar{
-	font-family:'DubaiFont';
 	height: 70px;
 	position:absolute;
-	width: 100%;}
+	width: 100%;
+}
 
 .navbar-toggler-icon{
 	  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");}
 
 .navbar a{
 	color: #fff;
-	font-family:DubaiFont;}
+}
 
 #majara-logo{
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 30px;
-	font-family: DubaiFont;
 	color: #fff;
 	padding-bottom: 20px;}
 
 .nav-link{
-	font-family:'DubaiFont';
 	color: #fff;
 	font-size: 17px;}
 
@@ -61,7 +75,6 @@ header {
 	color: #fff;
 	background: #1A237E url("../images/bg-wide@2x.jpg") no-repeat center;
 	background-size: cover;
-	font-family:DubaiW23-Regular;
 }
 .header-lg {
 	padding: 220px 0 100px 0;
@@ -245,6 +258,7 @@ section {
 		margin-bottom: 0;
 	}
 }
+
 /*--------------------------------------------------------------
 9.0 Footer
 --------------------------------------------------------------*/
@@ -328,6 +342,38 @@ section {
 	background-color: #1A237E;
 	backdrop-filter: blur(10px);
 	opacity: .85!important;
+}
+.modal-divider {
+	position: relative;
+	margin: 20px 0;
+	color: #fff;
+	text-align: center;
+}
+.modal-divider::before,
+.modal-divider::after  {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 50%;
+	width: 45%;
+	height: 1px;
+	background-color: #fff;
+	transform: translateY(-50%);
+}
+.modal-divider::after {
+	left: 0;
+}
+.modal-footer {
+	justify-content: center;
+	border-top: 0;
+	padding-top: 0;
+	padding-bottom: 30px;
+	color: #fff;
+}
+.modal-footer a {
+	color: #fff;
+	text-decoration: underline;
+	font-weight: 700;
 }
 
 @media screen and (min-width: 576px) {

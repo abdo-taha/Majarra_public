@@ -51,15 +51,15 @@
 			<ul class="navbar-nav mr-auto">
 
 				<li class="nav-item">
-					<a class="nav-link " href="#">بحث</a>
+					<a class="nav-link" href="#">بحث</a>
 				</li>
 
 				<li class="nav-item">
-					<a class="nav-link " href="#">تسجيل</a>
+					<a class="nav-link" href="#register-modal" data-toggle="modal">تسجيل</a>
 				</li>
 
 				<li class="nav-item">
-					<a class="nav-link " href="#login-modal" data-toggle="modal">دخول</a>
+					<a class="nav-link" href="#login-modal" data-toggle="modal">دخول</a>
 				</li>
 
 			</ul>
@@ -72,7 +72,7 @@
 
 	<!-- Header -->
 	<header class="header-lg container-fluid">
-		<div class="row justify-content-center">
+		<div class="row no-gutters justify-content-center">
 			<div class="col-12 col-md-6 text-center">
 				<h1 class="header-title">
 					مجرة ... مصادر و مسارات متكاملة <br>لتتعلم ما تحب
@@ -367,7 +367,7 @@
 					<a href="#" class="footer-logo">مجرة</a>
 					<ul class="footer-list mb-3 mb-md-0">
 						<li>
-							<a href="#login-modal" data-toggle="modal">عن مجرة</a>
+							<a href="#">عن مجرة</a>
 						</li>
 						<li>
 							<a href="#">سياسة الخصوصية</a>
@@ -413,9 +413,12 @@
 							المتابعة باستخدام تويتر
 						</a>
 					</div>
+					<div class="modal-divider">
+						<span>أو</span>
+					</div>
 					<form>
 						<div class="form-group">
-							<input type="text" class="form-control modal-control" placeholder="البريد الإلكتزوني">
+							<input type="text" class="form-control modal-control" placeholder="البريد الإلكتروني">
 						</div>
 						<div class="form-group">
 							<input type="text" class="form-control modal-control" placeholder="كلمة المرور">
@@ -430,12 +433,59 @@
 						</div>
 					</form>
 				</div>
+				<div class="modal-footer">
+					<span>ليس لديك حساب؟</span>
+					<a href="#">سجل الآن!</a>
+				</div>
 			</div>
 		</div>
 	</div>
 
 	<!-- Register Modal -->
-	<div></div>
+	<div class="modal modal-custom fade" id="register-modal" tabindex="-1" role="dialog"
+		aria-labelledby="RegisterModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					إغلاق
+				</button>
+				<div class="modal-header">
+					<h5 class="modal-title" id="RegisterModalLabel">حساب جديد</h5>
+				</div>
+				<div class="modal-body">
+					<div class="form-group">
+						<a href="#" class="btn btn-outline-white btn-block">
+							المتابعة باستخدام تويتر
+						</a>
+					</div>
+					<div class="modal-divider">
+						<span>أو</span>
+					</div>
+					<form>
+						<div class="form-group">
+							<input type="text" class="form-control modal-control" placeholder="اسم المستخدم">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control modal-control" placeholder="البريد الإلكتروني">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control modal-control" placeholder="كلمة المرور">
+						</div>
+						<div class="form-row justify-content-center">
+							<div class="col-12 col-md-6">
+								<button class="btn btn-white btn-block">تسجيل</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<span>لديك حساب بالفعل؟</span>
+					<a href="#"">سجل الدخول!</a>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
