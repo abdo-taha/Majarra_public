@@ -117,6 +117,7 @@ header {
 	border-radius: 50%;
 	background-color: #000;
 	display: inline-block;
+	background-image: url('https://picsum.photos/50');
 }
 #added{
 	display: inline-block;
