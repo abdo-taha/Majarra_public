@@ -14,7 +14,7 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	<!-- Majarra CSS -->
-	<link rel="stylesheet" href="css/pathPageBlueprint.css">
+	<link rel="stylesheet" href="css/style.css">
 
 	<!-- Tab title and icon -->
 	<title>مجرة |مسار</title>
@@ -23,49 +23,61 @@
 </head>
 
 <body>
-	<!-- Navigation Bar -->
 	<nav class="navbar navbar-expand-lg ">
 
-  		<a class="navbar-brand"  id="majara-logo" href="#">مجرة</a>
+		<a class="navbar-brand" id="majara-logo" href="#">مجرة</a>
 
-  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="		#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"		 aria-label="Toggle navigation">
-   		 <span class="navbar-toggler-icon"></span>
-  		</button>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="		#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-   		 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    
-   		 <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">تصفح التقنيات<span class="sr-only">(current)</span></a>
-      </li>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-      <li class="nav-item">
-        <a class="nav-link" href="#">مسارات التعلم</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">المجتمع </a>
-      </li>
-   		 </ul>
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">تصفح التقنيات<span class="sr-only">(current)</span></a>
+				</li>
 
-   		 <ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#">مسارات التعلم</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">المجتمع </a>
+				</li>
+			</ul>
 
-    	<li class="nav-item">
-          <a class="nav-link " href="#">بحث</a>
-        </li> 
+			<ul class="navbar-nav mr-auto align-items-lg-center">
 
-    	<li class="nav-item">
-          <a class="nav-link " href="#">تسجيل </a>
-     	</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">
+						<i class="material-icons text-icon">search</i>
+						بحث
+					</a>
+				</li>
 
-	 	<li class="nav-item">
-          <a class="nav-link " href="#login-modal" data-toggle="modal" >دخول</a>
-     	</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#register-modal" data-toggle="modal">
+						<i class="material-icons text-icon">person_outline</i>
+						تسجيل
+					</a>
+				</li>
 
-   		 </ul>
-      <form class="form-inline my-2 my-lg-0 m-2">
-         <button class="btn btn-white my-2 my-sm-0" id="nav-add-source-btn" type="submit">+اقترح مصدرًا</button>
-      </form>
-  		</div>
+				<li class="nav-item">
+					<a class="nav-link" href="#login-modal" data-toggle="modal">
+						<i class="material-icons text-icon">lock_outline</i>
+						دخول
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link navbar-btn" href="#login-modal" data-toggle="modal">
+						<i class="material-icons text-icon">add</i>
+						اقترح مصدرًا
+					</a>
+				</li>
+
+			</ul>
+		</div>
 	</nav>
 
 	<header class="header-lg container-fluid">
@@ -452,176 +464,84 @@
 	</section>
 
 	<section id="intersets" class="container">
-		<div class="col-xs-12">
-			<h4>تقنيات قد تهمك</h4>
-		</div>
-		<div class="row justify-content-start">
-			<div class="col-md-9 col-xs-12">
-				<div class="row">
-
-				<div class="col-md-4 col-sm-6">
-				<div class="card mb-3" style="max-width: 250px;">
- 				 	<div class="row no-gutters">
-
-   					  <div class="col-md-4">
-   					   		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png" class="card-img" alt="...">
-   					  </div>
-  					  <div class="col-md-8">
-
-   					   <div class="card-body">
-
-     					    <h5 class="card-title">Bootstrap</h5>   					 
-        					<p class="card-text"><small class="text-muted">12 مصدر</small></p>
-
-    					  </div>
-    					</div>
-  					</div>
-				</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6">
-				<div class="card mb-3" style="max-width: 250px;">
- 				 	<div class="row no-gutters">
-
-   					  <div class="col-md-4">
-   					   		<img src="https://cdn.auth0.com/blog/react-js/react.png" class="card-img" alt="...">
-   					  </div>
-  					  <div class="col-md-8">
-
-   					   <div class="card-body">
-
-     					    <h5 class="card-title">React Native</h5>   					 
-        					<p class="card-text"><small class="text-muted">12 مصدر</small></p>
-
-    					  </div>
-    					</div>
-  					</div>
-				</div>
-				</div>
-
-
-
-
-				<div class="col-md-4 col-sm-6">
-				<div class="card mb-3" style="max-width: 250px;">
- 				 	<div class="row no-gutters">
-
-   					  <div class="col-md-4">
-   					   		<img src="https://cdn.worldvectorlogo.com/logos/laravel.svg" class="card-img" alt="...">
-   					  </div>
-  					  <div class="col-md-8">
-
-   					   <div class="card-body">
-
-     					    <h5 class="card-title">Laravel</h5>   					 
-        					<p class="card-text"><small class="text-muted">12 مصدر</small></p>
-
-    					  </div>
-    					</div>
-  					</div>
-				</div>
-				</div>
-
-				</div><!-- End of First row -->
-
-				<div class="row ">
-
-				<div class="col-md-4 col-sm-6">
-				<div class="card mb-3" style="max-width: 250px;">
- 				 	<div class="row no-gutters">
-
-   					  <div class="col-md-4">
-   					   		<img src="https://bit.ly/3aZfiOR" class="card-img" alt="...">
-   					  </div>
-  					  <div class="col-md-8">
-
-   					   <div class="card-body">
-
-     					    <h5 class="card-title">Bootstrap</h5>   					 
-        					<p class="card-text"><small class="text-muted">12 مصدر</small></p>
-
-    					  </div>
-    					</div>
-  					</div>
-				</div>
-				</div>
-
-
-				<div class="col-md-4 col-sm-6">
-				<div class="card mb-3" style="max-width: 250px;">
- 				 	<div class="row no-gutters">
-
-   					  <div class="col-md-4">
-   					   		<img src="https://bit.ly/3aZfiOR" class="card-img" alt="...">
-   					  </div>
-  					  <div class="col-md-8">
-
-   					   <div class="card-body">
-
-     					    <h5 class="card-title">Bootstrap</h5>   					 
-        					<p class="card-text"><small class="text-muted">12 مصدر</small></p>
-
-    					  </div>
-    					</div>
-  					</div>
-				</div>
-				</div>
-
-
-				<div class="col-md-4 col-sm-6">
-				<div class="card mb-3" style="max-width: 250px;">
- 				 	<div class="row no-gutters">
-
-   					  <div class="col-md-4">
-   					   		<img src="https://bit.ly/3aZfiOR" class="card-img" alt="...">
-   					  </div>
-  					  <div class="col-md-8">
-
-   					   <div class="card-body">
-
-     					    <h5 class="card-title">Bootstrap</h5>   					 
-        					<p class="card-text"><small class="text-muted">12 مصدر</small></p>
-
-    					  </div>
-    					</div>
-  					</div>
-				</div>
-				</div>
-
-			</div><!-- End of Second row -->
-
-				
+		<div class="row">
+			<div class="col-12">
+				<h4 >تقنيات قد تهمك</h4>
 			</div>
-			
 		</div>
-		
+		<div class="row">
+			<div class="col-12 col-lg-9">
+				<div class="row cards-catalog justify-content-center">
+					<div class="col-12 col-md-4">
+						<div class="card card-tool">
+							<a href="#">
+								<img src="https://bit.ly/3aZfiOR" class="card-img" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">جافا سكريبت</h5>
+									<p class="card-text">24 مصدر</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="card card-tool">
+							<a href="#">
+								<img src="https://bit.ly/3aZfiOR" class="card-img" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">جافا سكريبت</h5>
+									<p class="card-text">24 مصدر</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="card card-tool">
+							<a href="#">
+								<img src="https://bit.ly/3aZfiOR" class="card-img" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">جافا سكريبت</h5>
+									<p class="card-text">24 مصدر</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="card card-tool">
+							<a href="#">
+								<img src="https://bit.ly/3aZfiOR" class="card-img" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">جافا سكريبت</h5>
+									<p class="card-text">24 مصدر</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="card card-tool">
+							<a href="#">
+								<img src="https://bit.ly/3aZfiOR" class="card-img" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">جافا سكريبت</h5>
+									<p class="card-text">24 مصدر</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="card card-tool">
+							<a href="#">
+								<img src="https://bit.ly/3aZfiOR" class="card-img" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">جافا سكريبت</h5>
+									<p class="card-text">24 مصدر</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	<footer class="container">
 		<div class="footer-content">
@@ -658,8 +578,6 @@
 		</div>
 	</footer>
 
-
-
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -674,8 +592,6 @@
 
 	<!-- Majarra Javascript -->
 	<script src="javascript/script.js"></script>
-
-
 
 </body>
 
