@@ -31,43 +31,41 @@ h1, h2, h3, h4, h5, h6 {
 
 .clear{clear: both;}
 /*---------------------------Navigation Bar  -----------------------*/
-.navbar{
+.navbar {
 	height: 70px;
 	position:absolute;
 	width: 100%;
 }
-
-.navbar-toggler-icon{
-	  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");}
-
-.navbar a{
-	color: #fff;
-}
-
 #majara-logo{
-	font-size: 40px;
+	font-size: 28px;
 	font-weight: 700;
 	line-height: 30px;
 	color: #fff;
-	padding-bottom: 20px;}
-
-.nav-link{
+	margin-right: 0;
+}
+.navbar-toggler-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.nav-link {
 	color: #fff;
-	font-size: 17px;}
-
-#nav-add-source-btn{
+}
+.nav-link:hover, .nav-link:active {
+	color: #fff;
+}
+.nav-link.navbar-btn {
+	padding: 8px 20px!important;
+	color: #1A237E;
 	background-color: #fff;
-	color: #00F;
-	line-height: 20px;
-}
-#nav-add-source-btn:hover{
-	transform: translateY(-5px);
+	border-radius: 5px;
 }
 
-@media screen and (max-width:980px) {
-	#nav-add-source-btn{display: none}
-	#majara-logo{text-align: center;}
-	.nav-buttons{text-align: center;}
+@media screen and (min-width: 992px) {
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding: 0 10px;
+	}
+	.nav-link.navbar-btn {
+		margin-right: 10px;
+	}
 }
 
 /*--------------------------------------------------------------
@@ -131,44 +129,8 @@ font-weight: 400;
 	color: #1A237E;
 
 }
-#tools-section .card img{
-	width: 85px;
-	height: 90px;
-	padding: 10px 10px 5px 0px;
-} 
-#tools-section .card-title{
-	font-size: 1.2rem;
-}
-#tools-section .card-title a{
-	color: #1A237E;
-}
 
-#explore-now-btn{
-	background-image: url("../images/bg-wide.jpg");
-	height: 40px;
-	width: 200px;
-	line-height: 40px;
-	color: #fff;
-	border-radius: 5px;
-	margin:30px 0px;}
-#explore-now-btn a{
-		font-family: 'Cairo', sans-serif;
-		font-size: 18px;
-		font-weight: 400;
-		color: #fff;
-} 
-@media screen and (max-width:968px) {
-		#tools-sections .card{max-width: 200px; max-height: 100px; height: 100px;}
-}
-@media screen and (max-width:768px) {
-	#tools-section .card{max-width: 200px; max-height: 100px; height: 100px; margin-right: 30px;}
-	#tools-section .card-title{font-size: .8rem;}
-	#tools-section .card-body{position: absolute; bottom: 5px; left: 0px;}
-
-}
 /*---------------------------Courses Section-----------------------*/
-
-
 .text-icon {
 	vertical-align: bottom;
 	margin-left: 5px;
@@ -186,6 +148,7 @@ section {
 .btn {
 	padding: 10px 35px;
 	font-size: 20px;
+	border: 0;
 }
 .btn-primary {
 	background: #1A237E url('../images/bg-btn@2x.png') no-repeat center;
@@ -215,10 +178,11 @@ section {
 1.0 Card
 --------------------------------------------------------------*/
 .cards-catalog {
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 }
 .card {
 	border: 0;
+	margin-bottom: 20px;
 	box-shadow: 0 6px 10px rgba(55, 71, 79, .1);
 	transition: transform .3s ease,
 				box-shadow .3s ease;
@@ -245,9 +209,6 @@ section {
 /*--------------------------------------------------------------
 1.1 Path Card
 --------------------------------------------------------------*/
-.card-path {
-	margin-bottom: 30px;
-}
 .card-path .card-img-top {
 	padding: 20px 20px 0 20px;
 }
@@ -255,10 +216,28 @@ section {
 	color: #546E7A;
 	font-weight: 700;
 }
-@media screen and (min-width: 992px) {
-	.card-path {
-		margin-bottom: 0;
-	}
+
+/*--------------------------------------------------------------
+1.1 Tool Card
+--------------------------------------------------------------*/
+.card-tool {
+	padding: 15px;
+}
+.card-tool > a {
+	display: flex;
+	align-items: center;
+}
+.card-tool .card-img {
+	width: 68px;
+	height: 68px;
+	margin-left: 20px;
+	border-radius: 0;
+}
+.card-tool .card-title {
+	margin-bottom: 10px;
+}
+.card-tool .card-body {
+	padding: 0;
 }
 
 /*--------------------------------------------------------------
