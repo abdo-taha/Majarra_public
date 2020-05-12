@@ -59,6 +59,8 @@ h1, h2, h3, h4, h5, h6 {
 1.0 Header
 --------------------------------------------------------------*/
 header {
+	padding-top: 130px;
+	padding-bottom: 60px;
 	color: #fff;
 	background: #1A237E url("../images/bg-wide@2x.jpg") no-repeat center;
 	background-size: cover;
@@ -69,6 +71,9 @@ header {
 .header-lg .header-title {
 	margin-bottom: 30px;
 	line-height: 1.6;
+}
+header.before-content {
+	padding-bottom: 100px;
 }
 .header-search {
 	position: relative;
@@ -147,6 +152,8 @@ section {
 	padding: 10px 35px;
 	font-size: 20px;
 	border: 0;
+	border-radius: 5px;
+	outline: none;
 }
 .btn-primary {
 	background: #1A237E url('../images/bg-btn@2x.png') no-repeat center;
@@ -166,6 +173,19 @@ section {
 .btn-outline-white:hover, .btn-outline-white:focus {
 	color: #1A237E;
 	background-color: #fff;
+}
+.bookmark-btn {
+	color: #546E7A;
+	font-size: 14px;
+	padding: 0;
+}
+.bookmark-btn:hover, .bookmark-btn:focus, .bookmark-btn:active {
+	color: #546E7A;
+	box-shadow: none;
+}
+.bookmark-btn .material-icons {
+	font-size: 20px;
+	margin-left: 0;
 }
 
 .form-control:focus {
@@ -200,6 +220,10 @@ section {
 	font-family: 'Dubai', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	color: #1A237E;
 	font-weight: 700;
+}
+.card-title a {
+	color: inherit;
+	text-decoration: none;
 }
 .card-text {
 	color: #546E7A;
@@ -399,50 +423,67 @@ section {
 /*--------------------------------------------------------------
 1.0 Path info
 --------------------------------------------------------------*/
-#path-pic{
+.tool-heading {
+	display: flex;
+	align-items: center;
+}
+.tool-pic{
 	max-width: 100%;
-	width: 100px;
-	height: 100px;
-	border-radius: 5%;
+	width: 72px;
+	height: 72px;
+	border-radius: 5px;
 	display: inline-block;
-}
-.path-info{
-	display: inline-block;
-}
-#source-info p{
-	display: inline-block;
+	margin-left: 20px;
+	box-shadow: 0 6px 20px rgba(55, 71, 79, .1);
 }
 
 
 /*--------------------------------------------------------------
 3.0 Path Courses 
 --------------------------------------------------------------*/
-#courses-list{
-	margin-top: -50px;
+#content {
+	margin-top: -40px;
 }
-#courses-list h5{
-	display: inline-block;
+.card.card-course:hover {
+	transform: none;
+	box-shadow: 0 6px 10px rgba(55, 71, 79, .1)
 }
-#courses-list .card{
-	margin-bottom: 4%;
-	box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-}
-#rank{
-	background-color: #ECEFF1;
-	border-radius: 10%;
-	text-indent: 2%;
-	height: 70px;
+.card-course-upvote {
+	color: #1A237E;
+	background-color: rgba(26, 35, 126, .1);
+	border-radius: 5px;
 	width: 50px;
-	padding-right: 29%;
-	padding-top: 15%;
+	min-height: 65px;
+	border: 0;
+	margin-left: 20px;
+	transition: .3s ease;
 }
-.profile-Pic{
-	width: 30px;
-	height: 30px;
-	border-radius: 50%;
-	background-color: #000;
+.card-course-upvote:hover {
+	color: #fff;
+	background-color: #1A237E;
+}
+.card-course-upvote:focus, .card-course-upvote:active {
+	outline: none;
+}
+.tags-list {
 	display: inline-block;
-	background-image: url('https://picsum.photos/50');
+	list-style: none;
+	padding: 0;
+	margin-bottom: 0;
+}
+.tags-list li {
+	display: inline-block;
+	margin-left: 5px;
+}
+.tags-list li:last-child {
+	margin-left: 0;
+}
+.tags-list a {
+	font-size: 14px;
+	padding: 0 10px;
+	color: #1A237E;
+	background-color: rgba(26, 35, 126, .1);
+	border-radius: 5px;
 }
 #added{
 	display: inline-block;
@@ -459,31 +500,89 @@ section {
 #save-it{
 	float: left;
 }
+
 /*--------------------------------------------------------------
 4.0  filter box
 --------------------------------------------------------------*/
-#filter-box{
-	margin-top: -50px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+.filter-box {
+	padding: 20px;
 	background-color: #fff;
-	text-indent: 15px;
-	border-radius: 2%;
-
-
+	border-radius: 5px;
+	box-shadow: 0 6px 10px rgba(55, 71, 79, .1);
 }
-.form-check-label{
-	margin-right: 5%;
+.filter-box > *:last-child {
+	margin-bottom: 0;
+}
+.filter-section {
+	margin-bottom: 20px;
+}
+.filter-section .custom-control {
+	margin-bottom: 10px;
+}
+.filter-title {
+	font-family: 'Dubai', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	color: #1A237E;
+	margin-bottom: 10px;
 }
 
 /*--------------------------------------------------------------
 5.0 Intersts 
 --------------------------------------------------------------*/
-#intersets{
+#intersets {
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
-#intersets h4{
-	padding-top: 20px;
-	padding-bottom: 20px;
+#intersets h4 {
+	color: #1A237E;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*--------------------------------------------------------------
+5.0 Pagination 
+--------------------------------------------------------------*/
+.pagination {
+	padding-right: 0;
+	display: inline-flex;
+	box-shadow: 0 6px 10px rgba(55, 71, 79, .1);
+}
+.page-item:first-child .page-link {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.page-item:last-child .page-link {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.page-link {
+	color: #1A237E;
+	border: 0;
+}
+.page-link:hover, .page-link:focus {
+	color: #1A237E;
+	box-shadow: none;
+}
+.page-item.active .page-link {
+	color: #fff;
+	background-color: #1A237E;
+}
+
+.custom-control {
+	padding-left: 0;
+	padding-right: 25px;
+}
+.custom-control-label::before {
+	left: auto;
+	right: -25px;
+}
+.custom-control-label::after {
+	left: auto;
+	right: -25px;
+}
+.custom-control-input:checked~.custom-control-label::before {
+	background-color: #1A237E;
 }
