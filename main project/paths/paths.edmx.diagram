@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="07a230490d1c4ceda527c4a11c58c092" Name="Diagram1">
+        <EntityTypeShape EntityType="MajarraModel.comments_data" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MajarraModel.courses_data" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MajarraModel.path_data" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MajarraModel.sub_path_data" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MajarraModel.sysdiagram" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MajarraModel.users_data" Width="1.5" PointX="5.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="MajarraModel.FK__courses_d__sub_p__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="MajarraModel.FK__courses_d__sub_p__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="MajarraModel.FK__courses_d__sub_p__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="MajarraModel.FK__courses_d__sub_p__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="MajarraModel.FK__courses_d__sub_p__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="MajarraModel.FK__courses_d__sub_p__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="MajarraModel.FK__courses_d__sub_p__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="MajarraModel.FK__courses_d__sub_p__66603565" ManuallyRouted="false" />
+        <AssociationConnector Association="MajarraModel.FK__courses_d__sub_p__6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="MajarraModel.FK__courses_d__sub_p__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="MajarraModel.FK__courses_d__sub_p__7A672E12" ManuallyRouted="false" />
+        <AssociationConnector Association="MajarraModel.FK__sub_path___path___2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="MajarraModel.FK__sub_path___path___33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="MajarraModel.FK__sub_path___path___398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="MajarraModel.FK__sub_path___path___3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="MajarraModel.FK__sub_path___path___44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="MajarraModel.FK__sub_path___path___4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="MajarraModel.FK__sub_path___path___5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="MajarraModel.FK__sub_path___path___6754599E" ManuallyRouted="false" />
+        <AssociationConnector Association="MajarraModel.FK__sub_path___path___6E01572D" ManuallyRouted="false" />
+        <AssociationConnector Association="MajarraModel.FK__sub_path___path___74AE54BC" ManuallyRouted="false" />
+        <AssociationConnector Association="MajarraModel.FK__sub_path___path___7B5B524B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

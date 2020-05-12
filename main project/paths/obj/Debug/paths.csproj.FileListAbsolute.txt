@@ -1,0 +1,453 @@
+E:\educational\web\project final\paths\paths\bin\paths.dll.config
+E:\educational\web\project final\paths\paths\bin\paths.dll
+E:\educational\web\project final\paths\paths\bin\paths.pdb
+E:\educational\web\project final\paths\paths\bin\roslyn\csc.exe
+E:\educational\web\project final\paths\paths\bin\roslyn\csc.exe.config
+E:\educational\web\project final\paths\paths\bin\roslyn\csc.rsp
+E:\educational\web\project final\paths\paths\bin\roslyn\csi.exe
+E:\educational\web\project final\paths\paths\bin\roslyn\csi.exe.config
+E:\educational\web\project final\paths\paths\bin\roslyn\csi.rsp
+E:\educational\web\project final\paths\paths\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\educational\web\project final\paths\paths\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\Microsoft.Managed.Core.targets
+E:\educational\web\project final\paths\paths\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\educational\web\project final\paths\paths\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.AppContext.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.Collections.Immutable.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.Console.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.Globalization.Calendars.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.IO.Compression.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.IO.FileSystem.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.Net.Http.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.Net.Sockets.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.Reflection.Metadata.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.ValueTuple.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.Xml.XmlDocument.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.Xml.XPath.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\educational\web\project final\paths\paths\bin\roslyn\vbc.exe
+E:\educational\web\project final\paths\paths\bin\roslyn\vbc.exe.config
+E:\educational\web\project final\paths\paths\bin\roslyn\vbc.rsp
+E:\educational\web\project final\paths\paths\bin\roslyn\VBCSCompiler.exe
+E:\educational\web\project final\paths\paths\bin\roslyn\VBCSCompiler.exe.config
+E:\educational\web\project final\paths\paths\bin\Antlr3.Runtime.dll
+E:\educational\web\project final\paths\paths\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\educational\web\project final\paths\paths\bin\Microsoft.Web.Infrastructure.dll
+E:\educational\web\project final\paths\paths\bin\Newtonsoft.Json.dll
+E:\educational\web\project final\paths\paths\bin\System.Net.Http.Formatting.dll
+E:\educational\web\project final\paths\paths\bin\System.Web.Helpers.dll
+E:\educational\web\project final\paths\paths\bin\System.Web.Http.dll
+E:\educational\web\project final\paths\paths\bin\System.Web.Http.WebHost.dll
+E:\educational\web\project final\paths\paths\bin\System.Web.Mvc.dll
+E:\educational\web\project final\paths\paths\bin\System.Web.Optimization.dll
+E:\educational\web\project final\paths\paths\bin\System.Web.Razor.dll
+E:\educational\web\project final\paths\paths\bin\System.Web.WebPages.Deployment.dll
+E:\educational\web\project final\paths\paths\bin\System.Web.WebPages.dll
+E:\educational\web\project final\paths\paths\bin\System.Web.WebPages.Razor.dll
+E:\educational\web\project final\paths\paths\bin\WebGrease.dll
+E:\educational\web\project final\paths\paths\bin\Newtonsoft.Json.xml
+E:\educational\web\project final\paths\paths\bin\System.Net.Http.Formatting.xml
+E:\educational\web\project final\paths\paths\bin\System.Web.Helpers.xml
+E:\educational\web\project final\paths\paths\bin\System.Web.Http.xml
+E:\educational\web\project final\paths\paths\bin\System.Web.Http.WebHost.xml
+E:\educational\web\project final\paths\paths\bin\System.Web.Mvc.xml
+E:\educational\web\project final\paths\paths\bin\System.Web.Optimization.xml
+E:\educational\web\project final\paths\paths\bin\System.Web.Razor.xml
+E:\educational\web\project final\paths\paths\bin\System.Web.WebPages.xml
+E:\educational\web\project final\paths\paths\bin\System.Web.WebPages.Deployment.xml
+E:\educational\web\project final\paths\paths\bin\System.Web.WebPages.Razor.xml
+E:\educational\web\project final\paths\paths\bin\Antlr3.Runtime.pdb
+E:\educational\web\project final\paths\paths\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\educational\web\project final\paths\paths\obj\Debug\paths.csprojAssemblyReference.cache
+E:\educational\web\project final\paths\paths\obj\Debug\paths.csproj.CoreCompileInputs.cache
+E:\educational\web\project final\paths\paths\obj\Debug\paths.csproj.CopyComplete
+E:\educational\web\project final\paths\paths\obj\Debug\paths.dll
+E:\educational\web\project final\paths\paths\obj\Debug\paths.pdb
+E:\educational\web\project final\Majarra-master\paths\paths\bin\paths.dll.config
+E:\educational\web\project final\Majarra-master\paths\paths\bin\paths.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\paths.pdb
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\csc.exe
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\csc.exe.config
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\csc.rsp
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\csi.exe
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\csi.exe.config
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\csi.rsp
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\Microsoft.Managed.Core.targets
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.AppContext.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.Collections.Immutable.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.Console.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.Globalization.Calendars.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.IO.Compression.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.IO.FileSystem.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.Net.Http.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.Net.Sockets.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.Reflection.Metadata.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.ValueTuple.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.Xml.XmlDocument.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.Xml.XPath.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\vbc.exe
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\vbc.exe.config
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\vbc.rsp
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\VBCSCompiler.exe
+E:\educational\web\project final\Majarra-master\paths\paths\bin\roslyn\VBCSCompiler.exe.config
+E:\educational\web\project final\Majarra-master\paths\paths\bin\Antlr3.Runtime.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\EntityFramework.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\EntityFramework.SqlServer.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\Microsoft.Web.Infrastructure.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\Newtonsoft.Json.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Net.Http.Formatting.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Web.Cors.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Web.Helpers.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Web.Http.Cors.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Web.Http.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Web.Http.WebHost.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Web.Mvc.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Web.Optimization.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Web.Razor.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Web.WebPages.Deployment.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Web.WebPages.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Web.WebPages.Razor.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\WebGrease.dll
+E:\educational\web\project final\Majarra-master\paths\paths\bin\EntityFramework.xml
+E:\educational\web\project final\Majarra-master\paths\paths\bin\EntityFramework.SqlServer.xml
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Web.Http.Cors.xml
+E:\educational\web\project final\Majarra-master\paths\paths\bin\Newtonsoft.Json.xml
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Net.Http.Formatting.xml
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Web.Helpers.xml
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Web.Http.xml
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Web.Http.WebHost.xml
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Web.Mvc.xml
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Web.Optimization.xml
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Web.Razor.xml
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Web.WebPages.xml
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Web.WebPages.Deployment.xml
+E:\educational\web\project final\Majarra-master\paths\paths\bin\System.Web.WebPages.Razor.xml
+E:\educational\web\project final\Majarra-master\paths\paths\bin\Antlr3.Runtime.pdb
+E:\educational\web\project final\Majarra-master\paths\paths\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\educational\web\project final\Majarra-master\paths\paths\obj\Debug\paths.csprojAssemblyReference.cache
+E:\educational\web\project final\Majarra-master\paths\paths\obj\Debug\paths.csproj.CoreCompileInputs.cache
+E:\educational\web\project final\Majarra-master\paths\paths\obj\Debug\paths.csproj.CopyComplete
+E:\educational\web\project final\Majarra-master\paths\paths\obj\Debug\paths.dll
+E:\educational\web\project final\Majarra-master\paths\paths\obj\Debug\paths.pdb
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\paths.dll.config
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\paths.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\paths.pdb
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\csc.exe
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\csc.exe.config
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\csc.rsp
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\csi.exe
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\csi.exe.config
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\csi.rsp
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\Microsoft.Managed.Core.targets
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.AppContext.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.Collections.Immutable.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.Console.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.Globalization.Calendars.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.IO.Compression.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.IO.FileSystem.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.Net.Http.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.Net.Sockets.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.Reflection.Metadata.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.ValueTuple.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.Xml.XmlDocument.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.Xml.XPath.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\vbc.exe
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\vbc.exe.config
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\vbc.rsp
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\VBCSCompiler.exe
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\roslyn\VBCSCompiler.exe.config
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\Antlr3.Runtime.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\EntityFramework.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\EntityFramework.SqlServer.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\Microsoft.Web.Infrastructure.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\Newtonsoft.Json.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Net.Http.Formatting.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Web.Cors.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Web.Helpers.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Web.Http.Cors.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Web.Http.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Web.Http.WebHost.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Web.Mvc.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Web.Optimization.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Web.Razor.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Web.WebPages.Deployment.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Web.WebPages.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Web.WebPages.Razor.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\WebGrease.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\EntityFramework.xml
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\EntityFramework.SqlServer.xml
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Web.Http.Cors.xml
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\Newtonsoft.Json.xml
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Net.Http.Formatting.xml
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Web.Helpers.xml
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Web.Http.xml
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Web.Http.WebHost.xml
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Web.Mvc.xml
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Web.Optimization.xml
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Web.Razor.xml
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Web.WebPages.xml
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Web.WebPages.Deployment.xml
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\System.Web.WebPages.Razor.xml
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\Antlr3.Runtime.pdb
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\obj\Debug\paths.csproj.CoreCompileInputs.cache
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\obj\Debug\paths.csproj.CopyComplete
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\obj\Debug\paths.dll
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\obj\Debug\paths.pdb
+E:\educational\web\project final\Majarra-master\paths - Copy\paths\obj\Debug\paths.csprojAssemblyReference.cache
+E:\educational\web\project final\Majarra-master\main project\paths\bin\paths.dll.config
+E:\educational\web\project final\Majarra-master\main project\paths\bin\paths.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\paths.pdb
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\csc.exe
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\csc.exe.config
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\csc.rsp
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\csi.exe
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\csi.exe.config
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\csi.rsp
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\Microsoft.Managed.Core.targets
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.AppContext.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.Collections.Immutable.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.Console.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.Globalization.Calendars.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.IO.Compression.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.IO.FileSystem.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.Net.Http.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.Net.Sockets.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.Reflection.Metadata.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.ValueTuple.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.Xml.XmlDocument.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.Xml.XPath.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\vbc.exe
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\vbc.exe.config
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\vbc.rsp
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\VBCSCompiler.exe
+E:\educational\web\project final\Majarra-master\main project\paths\bin\roslyn\VBCSCompiler.exe.config
+E:\educational\web\project final\Majarra-master\main project\paths\bin\Antlr3.Runtime.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\EntityFramework.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\EntityFramework.SqlServer.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\Microsoft.Web.Infrastructure.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\Newtonsoft.Json.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Net.Http.Formatting.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Web.Cors.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Web.Helpers.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Web.Http.Cors.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Web.Http.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Web.Http.WebHost.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Web.Mvc.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Web.Optimization.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Web.Razor.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Web.WebPages.Deployment.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Web.WebPages.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Web.WebPages.Razor.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\WebGrease.dll
+E:\educational\web\project final\Majarra-master\main project\paths\bin\EntityFramework.xml
+E:\educational\web\project final\Majarra-master\main project\paths\bin\EntityFramework.SqlServer.xml
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Web.Http.Cors.xml
+E:\educational\web\project final\Majarra-master\main project\paths\bin\Newtonsoft.Json.xml
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Net.Http.Formatting.xml
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Web.Helpers.xml
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Web.Http.xml
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Web.Http.WebHost.xml
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Web.Mvc.xml
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Web.Optimization.xml
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Web.Razor.xml
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Web.WebPages.xml
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Web.WebPages.Deployment.xml
+E:\educational\web\project final\Majarra-master\main project\paths\bin\System.Web.WebPages.Razor.xml
+E:\educational\web\project final\Majarra-master\main project\paths\bin\Antlr3.Runtime.pdb
+E:\educational\web\project final\Majarra-master\main project\paths\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\educational\web\project final\Majarra-master\main project\paths\obj\Debug\paths.csprojAssemblyReference.cache
+E:\educational\web\project final\Majarra-master\main project\paths\obj\Debug\paths.csproj.CoreCompileInputs.cache
+E:\educational\web\project final\Majarra-master\main project\paths\obj\Debug\paths.csproj.CopyComplete
+E:\educational\web\project final\Majarra-master\main project\paths\obj\Debug\paths.dll
+E:\educational\web\project final\Majarra-master\main project\paths\obj\Debug\paths.pdb
+E:\educational\web\project final\Majarra\main project\paths\bin\paths.dll.config
+E:\educational\web\project final\Majarra\main project\paths\bin\paths.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\paths.pdb
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\csc.exe
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\csc.exe.config
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\csc.rsp
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\csi.exe
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\csi.exe.config
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\csi.rsp
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\Microsoft.Managed.Core.targets
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.AppContext.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.Collections.Immutable.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.Console.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.Globalization.Calendars.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.IO.Compression.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.IO.FileSystem.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.Net.Http.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.Net.Sockets.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.Reflection.Metadata.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.ValueTuple.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.Xml.XmlDocument.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.Xml.XPath.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\vbc.exe
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\vbc.exe.config
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\vbc.rsp
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\VBCSCompiler.exe
+E:\educational\web\project final\Majarra\main project\paths\bin\roslyn\VBCSCompiler.exe.config
+E:\educational\web\project final\Majarra\main project\paths\bin\Antlr3.Runtime.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\EntityFramework.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\EntityFramework.SqlServer.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\Microsoft.Web.Infrastructure.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\Newtonsoft.Json.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Net.Http.Formatting.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Web.Cors.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Web.Helpers.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Web.Http.Cors.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Web.Http.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Web.Http.WebHost.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Web.Mvc.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Web.Optimization.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Web.Razor.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Web.WebPages.Deployment.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Web.WebPages.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Web.WebPages.Razor.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\WebGrease.dll
+E:\educational\web\project final\Majarra\main project\paths\bin\EntityFramework.xml
+E:\educational\web\project final\Majarra\main project\paths\bin\EntityFramework.SqlServer.xml
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Web.Http.Cors.xml
+E:\educational\web\project final\Majarra\main project\paths\bin\Newtonsoft.Json.xml
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Net.Http.Formatting.xml
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Web.Helpers.xml
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Web.Http.xml
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Web.Http.WebHost.xml
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Web.Mvc.xml
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Web.Optimization.xml
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Web.Razor.xml
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Web.WebPages.xml
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Web.WebPages.Deployment.xml
+E:\educational\web\project final\Majarra\main project\paths\bin\System.Web.WebPages.Razor.xml
+E:\educational\web\project final\Majarra\main project\paths\bin\Antlr3.Runtime.pdb
+E:\educational\web\project final\Majarra\main project\paths\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\educational\web\project final\Majarra\main project\paths\obj\Debug\paths.csprojAssemblyReference.cache
+E:\educational\web\project final\Majarra\main project\paths\obj\Debug\paths.csproj.CoreCompileInputs.cache
+E:\educational\web\project final\Majarra\main project\paths\obj\Debug\paths.csproj.CopyComplete
+E:\educational\web\project final\Majarra\main project\paths\obj\Debug\paths.dll
+E:\educational\web\project final\Majarra\main project\paths\obj\Debug\paths.pdb

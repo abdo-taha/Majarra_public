@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MajarraModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="comments_data">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="path_id" Type="int" Nullable="false" />
+    <Property Name="added_by" Type="int" Nullable="false" />
+    <Property Name="text" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="courses_data">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="100" />
+    <Property Name="level" Type="int" />
+    <Property Name="type" Type="int" />
+    <Property Name="sub_path_id" Type="int" />
+    <Property Name="rate" Type="int" />
+    <Property Name="comments_count" Type="int" />
+    <Property Name="added_by" Type="int" />
+    <Property Name="icon" Type="nvarchar" MaxLength="300" />
+    <Property Name="Course_link" Type="nvarchar" MaxLength="300" />
+  </EntityType>
+  <EntityType Name="path_data">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="100" />
+    <Property Name="about" Type="nvarchar(max)" />
+    <Property Name="to_learn" Type="nvarchar(max)" />
+    <Property Name="rate" Type="int" />
+    <Property Name="details" Type="nvarchar" MaxLength="100" />
+    <Property Name="Pic" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="sub_path_data">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="about" Type="nvarchar(max)" />
+    <Property Name="path_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="users_data">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="name" Type="nvarchar(max)" />
+    <Property Name="password" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__courses_d__sub_p__2D27B809">
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="0..1" />
+    <End Role="courses_data" Type="Self.courses_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sub_path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="courses_data">
+        <PropertyRef Name="sub_path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__courses_d__sub_p__32E0915F">
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="0..1" />
+    <End Role="courses_data" Type="Self.courses_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sub_path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="courses_data">
+        <PropertyRef Name="sub_path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__courses_d__sub_p__38996AB5">
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="0..1" />
+    <End Role="courses_data" Type="Self.courses_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sub_path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="courses_data">
+        <PropertyRef Name="sub_path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__courses_d__sub_p__3E52440B">
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="0..1" />
+    <End Role="courses_data" Type="Self.courses_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sub_path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="courses_data">
+        <PropertyRef Name="sub_path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__courses_d__sub_p__440B1D61">
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="0..1" />
+    <End Role="courses_data" Type="Self.courses_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sub_path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="courses_data">
+        <PropertyRef Name="sub_path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__courses_d__sub_p__49C3F6B7">
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="0..1" />
+    <End Role="courses_data" Type="Self.courses_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sub_path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="courses_data">
+        <PropertyRef Name="sub_path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__courses_d__sub_p__4F7CD00D">
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="0..1" />
+    <End Role="courses_data" Type="Self.courses_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sub_path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="courses_data">
+        <PropertyRef Name="sub_path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__courses_d__sub_p__66603565">
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="0..1" />
+    <End Role="courses_data" Type="Self.courses_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sub_path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="courses_data">
+        <PropertyRef Name="sub_path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__courses_d__sub_p__6D0D32F4">
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="0..1" />
+    <End Role="courses_data" Type="Self.courses_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sub_path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="courses_data">
+        <PropertyRef Name="sub_path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__courses_d__sub_p__73BA3083">
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="0..1" />
+    <End Role="courses_data" Type="Self.courses_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sub_path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="courses_data">
+        <PropertyRef Name="sub_path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__courses_d__sub_p__7A672E12">
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="0..1" />
+    <End Role="courses_data" Type="Self.courses_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sub_path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="courses_data">
+        <PropertyRef Name="sub_path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__sub_path___path___2E1BDC42">
+    <End Role="path_data" Type="Self.path_data" Multiplicity="1" />
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sub_path_data">
+        <PropertyRef Name="path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__sub_path___path___33D4B598">
+    <End Role="path_data" Type="Self.path_data" Multiplicity="1" />
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sub_path_data">
+        <PropertyRef Name="path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__sub_path___path___398D8EEE">
+    <End Role="path_data" Type="Self.path_data" Multiplicity="1" />
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sub_path_data">
+        <PropertyRef Name="path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__sub_path___path___3F466844">
+    <End Role="path_data" Type="Self.path_data" Multiplicity="1" />
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sub_path_data">
+        <PropertyRef Name="path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__sub_path___path___44FF419A">
+    <End Role="path_data" Type="Self.path_data" Multiplicity="1" />
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sub_path_data">
+        <PropertyRef Name="path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__sub_path___path___4AB81AF0">
+    <End Role="path_data" Type="Self.path_data" Multiplicity="1" />
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sub_path_data">
+        <PropertyRef Name="path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__sub_path___path___5070F446">
+    <End Role="path_data" Type="Self.path_data" Multiplicity="1" />
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sub_path_data">
+        <PropertyRef Name="path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__sub_path___path___6754599E">
+    <End Role="path_data" Type="Self.path_data" Multiplicity="1" />
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sub_path_data">
+        <PropertyRef Name="path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__sub_path___path___6E01572D">
+    <End Role="path_data" Type="Self.path_data" Multiplicity="1" />
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sub_path_data">
+        <PropertyRef Name="path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__sub_path___path___74AE54BC">
+    <End Role="path_data" Type="Self.path_data" Multiplicity="1" />
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sub_path_data">
+        <PropertyRef Name="path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__sub_path___path___7B5B524B">
+    <End Role="path_data" Type="Self.path_data" Multiplicity="1" />
+    <End Role="sub_path_data" Type="Self.sub_path_data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="path_data">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="sub_path_data">
+        <PropertyRef Name="path_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MajarraModelStoreContainer">
+    <EntitySet Name="comments_data" EntityType="Self.comments_data" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="courses_data" EntityType="Self.courses_data" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="path_data" EntityType="Self.path_data" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sub_path_data" EntityType="Self.sub_path_data" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users_data" EntityType="Self.users_data" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__courses_d__sub_p__2D27B809" Association="Self.FK__courses_d__sub_p__2D27B809">
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+      <End Role="courses_data" EntitySet="courses_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__courses_d__sub_p__32E0915F" Association="Self.FK__courses_d__sub_p__32E0915F">
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+      <End Role="courses_data" EntitySet="courses_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__courses_d__sub_p__38996AB5" Association="Self.FK__courses_d__sub_p__38996AB5">
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+      <End Role="courses_data" EntitySet="courses_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__courses_d__sub_p__3E52440B" Association="Self.FK__courses_d__sub_p__3E52440B">
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+      <End Role="courses_data" EntitySet="courses_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__courses_d__sub_p__440B1D61" Association="Self.FK__courses_d__sub_p__440B1D61">
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+      <End Role="courses_data" EntitySet="courses_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__courses_d__sub_p__49C3F6B7" Association="Self.FK__courses_d__sub_p__49C3F6B7">
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+      <End Role="courses_data" EntitySet="courses_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__courses_d__sub_p__4F7CD00D" Association="Self.FK__courses_d__sub_p__4F7CD00D">
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+      <End Role="courses_data" EntitySet="courses_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__courses_d__sub_p__66603565" Association="Self.FK__courses_d__sub_p__66603565">
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+      <End Role="courses_data" EntitySet="courses_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__courses_d__sub_p__6D0D32F4" Association="Self.FK__courses_d__sub_p__6D0D32F4">
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+      <End Role="courses_data" EntitySet="courses_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__courses_d__sub_p__73BA3083" Association="Self.FK__courses_d__sub_p__73BA3083">
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+      <End Role="courses_data" EntitySet="courses_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__courses_d__sub_p__7A672E12" Association="Self.FK__courses_d__sub_p__7A672E12">
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+      <End Role="courses_data" EntitySet="courses_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__sub_path___path___2E1BDC42" Association="Self.FK__sub_path___path___2E1BDC42">
+      <End Role="path_data" EntitySet="path_data" />
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__sub_path___path___33D4B598" Association="Self.FK__sub_path___path___33D4B598">
+      <End Role="path_data" EntitySet="path_data" />
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__sub_path___path___398D8EEE" Association="Self.FK__sub_path___path___398D8EEE">
+      <End Role="path_data" EntitySet="path_data" />
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__sub_path___path___3F466844" Association="Self.FK__sub_path___path___3F466844">
+      <End Role="path_data" EntitySet="path_data" />
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__sub_path___path___44FF419A" Association="Self.FK__sub_path___path___44FF419A">
+      <End Role="path_data" EntitySet="path_data" />
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__sub_path___path___4AB81AF0" Association="Self.FK__sub_path___path___4AB81AF0">
+      <End Role="path_data" EntitySet="path_data" />
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__sub_path___path___5070F446" Association="Self.FK__sub_path___path___5070F446">
+      <End Role="path_data" EntitySet="path_data" />
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__sub_path___path___6754599E" Association="Self.FK__sub_path___path___6754599E">
+      <End Role="path_data" EntitySet="path_data" />
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__sub_path___path___6E01572D" Association="Self.FK__sub_path___path___6E01572D">
+      <End Role="path_data" EntitySet="path_data" />
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__sub_path___path___74AE54BC" Association="Self.FK__sub_path___path___74AE54BC">
+      <End Role="path_data" EntitySet="path_data" />
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__sub_path___path___7B5B524B" Association="Self.FK__sub_path___path___7B5B524B">
+      <End Role="path_data" EntitySet="path_data" />
+      <End Role="sub_path_data" EntitySet="sub_path_data" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
